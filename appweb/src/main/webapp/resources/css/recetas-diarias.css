@@ -1,0 +1,104 @@
+.description > p {
+	font-size: 1.5em;
+}
+
+.description > p:first-of-type {
+	margin-top: 50px;
+}
+
+.row.menu {
+	text-align: center;
+	background-color: #f1ebde;
+	margin-top: 40px;
+	font-size: 1.3em;
+}
+
+.row.menu > div {
+	padding: 10px;
+}
+
+.row.menu a {
+	font-weight: bold;
+	color: #808080;
+}
+
+.row.menu a:hover,
+.row.menu a:focus,
+.row.menu a:active {
+	color: #009200;
+	text-decoration: none;
+}
+
+.row.menu a .caret {
+	color: #009200;
+}
+
+.row.posts {
+	margin-top: 60px;
+}
+
+.row.post {
+	background-color: #f1ebde;
+	margin-bottom: 10px;
+}
+
+.row.post p {
+	font-size: 1.2em;
+}
+
+.post-title {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.post-title a,
+.post-title a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.post-tags {
+	text-align: justify;
+}
+
+.post-footer {
+	margin-bottom: 15px;
+}
+
+.post-footer a {
+	color: #6B6B6B;
+}
+
+.post-footer a:hover,
+.post-footer a:focus,
+.post-footer a:active {
+	color: #009200;
+	text-decoration: none;
+}
+
+/* Responsive Design  */
+@media (max-width: 767px) {
+	.description > p {
+		font-size: 1.2em;
+	}
+
+	.description > p:first-of-type,
+	.row.menu {
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.description > p {
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	.row.posts > div {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}

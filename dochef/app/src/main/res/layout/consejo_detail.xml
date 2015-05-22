@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/consejoImagen"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="8dp" />
+
+        <TextView
+            android:id="@+id/lblTituloConsejo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titulo Consejo:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tituloConsejo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+
+        <TextView
+            android:id="@+id/lblDescripcionCorta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripción Consejo:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descripcionConsejo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+
+
+
+        <Button
+            android:id="@+id/btnPremium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Contenido Premium"></Button>
+
+    </LinearLayout>
+</ScrollView>

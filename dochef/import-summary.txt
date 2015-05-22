@@ -1,0 +1,160 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+C:\Users\Celeritech Peru\Downloads\SlidingMenu\SlidingMenu
+                   -                                      
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* app\
+* app\build.gradle
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\java\
+* app\src\main\java\info\
+* app\src\main\java\info\androidhive\
+* app\src\main\java\info\androidhive\slidingmenu\
+* app\src\main\java\info\androidhive\slidingmenu\CommunityFragment.java
+* app\src\main\java\info\androidhive\slidingmenu\FindPeopleFragment.java
+* app\src\main\java\info\androidhive\slidingmenu\HomeFragment.java
+* app\src\main\java\info\androidhive\slidingmenu\MainActivity.java
+* app\src\main\java\info\androidhive\slidingmenu\PagesFragment.java
+* app\src\main\java\info\androidhive\slidingmenu\PhotosFragment.java
+* app\src\main\java\info\androidhive\slidingmenu\WhatsHotFragment.java
+* app\src\main\java\info\androidhive\slidingmenu\adapter\
+* app\src\main\java\info\androidhive\slidingmenu\adapter\NavDrawerListAdapter.java
+* app\src\main\java\info\androidhive\slidingmenu\model\
+* app\src\main\java\info\androidhive\slidingmenu\model\NavDrawerItem.java
+* app\src\main\res\
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\ic_communities.png
+* app\src\main\res\drawable-hdpi\ic_drawer.png
+* app\src\main\res\drawable-hdpi\ic_home.png
+* app\src\main\res\drawable-hdpi\ic_launcher.png
+* app\src\main\res\drawable-hdpi\ic_pages.png
+* app\src\main\res\drawable-hdpi\ic_people.png
+* app\src\main\res\drawable-hdpi\ic_photos.png
+* app\src\main\res\drawable-hdpi\ic_whats_hot.png
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\ic_communities.png
+* app\src\main\res\drawable-mdpi\ic_drawer.png
+* app\src\main\res\drawable-mdpi\ic_home.png
+* app\src\main\res\drawable-mdpi\ic_launcher.png
+* app\src\main\res\drawable-mdpi\ic_pages.png
+* app\src\main\res\drawable-mdpi\ic_people.png
+* app\src\main\res\drawable-mdpi\ic_photos.png
+* app\src\main\res\drawable-mdpi\ic_whats_hot.png
+* app\src\main\res\drawable-xhdpi\
+* app\src\main\res\drawable-xhdpi\ic_communities.png
+* app\src\main\res\drawable-xhdpi\ic_drawer.png
+* app\src\main\res\drawable-xhdpi\ic_home.png
+* app\src\main\res\drawable-xhdpi\ic_launcher.png
+* app\src\main\res\drawable-xhdpi\ic_pages.png
+* app\src\main\res\drawable-xhdpi\ic_people.png
+* app\src\main\res\drawable-xhdpi\ic_photos.png
+* app\src\main\res\drawable-xhdpi\ic_whats_hot.png
+* app\src\main\res\drawable-xxhdpi\
+* app\src\main\res\drawable-xxhdpi\ic_communities.png
+* app\src\main\res\drawable-xxhdpi\ic_home.png
+* app\src\main\res\drawable-xxhdpi\ic_launcher.png
+* app\src\main\res\drawable-xxhdpi\ic_pages.png
+* app\src\main\res\drawable-xxhdpi\ic_people.png
+* app\src\main\res\drawable-xxhdpi\ic_photos.png
+* app\src\main\res\drawable-xxhdpi\ic_whats_hot.png
+* app\src\main\res\drawable\
+* app\src\main\res\drawable\counter_bg.xml
+* app\src\main\res\drawable\list_item_bg_normal.xml
+* app\src\main\res\drawable\list_item_bg_pressed.xml
+* app\src\main\res\drawable\list_selector.xml
+* app\src\main\res\layout\
+* app\src\main\res\layout\activity_main.xml
+* app\src\main\res\layout\drawer_list_item.xml
+* app\src\main\res\layout\fragment_community.xml
+* app\src\main\res\layout\fragment_find_people.xml
+* app\src\main\res\layout\fragment_home.xml
+* app\src\main\res\layout\fragment_pages.xml
+* app\src\main\res\layout\fragment_photos.xml
+* app\src\main\res\layout\fragment_whats_hot.xml
+* app\src\main\res\menu\
+* app\src\main\res\menu\main.xml
+* app\src\main\res\values-sw600dp\
+* app\src\main\res\values-sw600dp\dimens.xml
+* app\src\main\res\values-sw720dp-land\
+* app\src\main\res\values-sw720dp-land\dimens.xml
+* app\src\main\res\values-v11\
+* app\src\main\res\values-v11\styles.xml
+* app\src\main\res\values-v14\
+* app\src\main\res\values-v14\styles.xml
+* app\src\main\res\values\
+* app\src\main\res\values\color.xml
+* app\src\main\res\values\dimens.xml
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

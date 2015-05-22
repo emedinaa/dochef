@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:beans="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<http pattern="/resources/**" security="none" />
+
+
+	<global-method-security pre-post-annotations="enabled"
+		secured-annotations="enabled" />
+
+
+	<http auto-config="true" use-expressions="true"
+		access-denied-page="/accesoDenegado?error=403">
+
+		<form-login login-page="/login" authentication-failure-url="/login?error=bad_credentials"
+			default-target-url="/" />
+
+		<logout invalidate-session="true" logout-success-url="/"
+			logout-url="/logout" delete-cookies="JSESSIONID" />
+
+		<intercept-url pattern="/favicon.ico" access="permitAll" />
+		<intercept-url pattern="/resources/**" access="permitAll" />
+		<intercept-url pattern="/auth/**" access="permitAll" />
+		<intercept-url pattern="/signin/**" access="permitAll" />
+		<intercept-url pattern="/signup/**" access="permitAll" />
+		<intercept-url pattern="/disconnect/facebook" access="permitAll" />
+		
+		<intercept-url pattern="/" access="permitAll" />
+		<intercept-url pattern="/protected/**" access="isAuthenticated()" />
+		
+		
+		<remember-me />
+
+		<custom-filter ref="socialAuthenticationFilter" before="PRE_AUTH_FILTER" />
+	</http>
+
+	<authentication-manager alias="authenticationManager">
+		<authentication-provider user-service-ref="userDetailsService">
+			<password-encoder ref="passwordEncoder" />
+		</authentication-provider>
+
+		<!-- Spring Social Security authentication provider -->
+		<authentication-provider ref="socialAuthenticationProvider" />
+	</authentication-manager>
+
+	<!--security:authentication-manager alias="authenticationManager"> <security:authentication-provider 
+		> <security:jdbc-user-service data-source-ref="dataSource" users-by-username-query="select 
+		email, password, enabled from system_user where email = ?" authorities-by-username-query="select 
+		u.email as login, u.user_role as role from system_user u where u.email = 
+		?" /> </security:authentication-provider> <security:authentication-provider 
+		ref="socialAuthenticationProvider" /> </security:authentication-manager -->
+
+	<jdbc-user-service id="userDetailsService"
+		data-source-ref="dataSource"
+		users-by-username-query="select email, password, true from system_user where email = ?"
+		authorities-by-username-query="select u.email as login, u.user_role as role from system_user u where email = ?" />
+
+	<beans:bean id="textEncryptor"
+		class="org.springframework.security.crypto.encrypt.Encryptors"
+		factory-method="noOpText" />
+
+	<beans:bean id="passwordEncoder"
+		class="org.springframework.security.crypto.password.NoOpPasswordEncoder"
+		factory-method="getInstance" />
+
+</beans:beans>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/JNDI">
+
+  <Resource
+	  name="jdbc/tomcatDataSource"
+	  auth="Container"
+	  type="javax.sql.DataSource"
+	  factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+	  initialSize="34"
+	  maxActive="377"
+	  maxIdle="233"
+	  minIdle="89"
+	  timeBetweenEvictionRunsMillis="34000"
+	  minEvictableIdleTimeMillis="55000"
+	  validationQuery="SELECT 1"
+	  validationInterval="34000"
+	  testOnBorrow="true"
+	  removeAbandoned="true"
+	  removeAbandonedTimeout="55"
+	  username="dochef"
+	  password="P4ssw0rd_01"
+	  driverClassName="com.mysql.jdbc.Driver"
+	  url="jdbc:mysql://localhost:3306/dochef?allowMultiQueries=true"
+ 	/>
+ 	
+  <!-- Resource
+	  name="jdbc/tomcatDataSource"
+	  auth="Container"
+	  type="javax.sql.DataSource"
+	  factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+	  initialSize="34"
+	  maxActive="377"
+	  maxIdle="233"
+	  minIdle="89"
+	  timeBetweenEvictionRunsMillis="34000"
+	  minEvictableIdleTimeMillis="55000"
+	  validationQuery="SELECT 1"
+	  validationInterval="34000"
+	  testOnBorrow="true"
+	  removeAbandoned="true"
+	  removeAbandonedTimeout="55"
+	  username="root"
+	  password="password"
+	  driverClassName="com.mysql.jdbc.Driver"
+	  url="jdbc:mysql://localhost:3306/dochef?allowMultiQueries=true"
+ 	/-->
+ 	
+ 	
+ </Context>

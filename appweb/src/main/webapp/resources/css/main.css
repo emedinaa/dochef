@@ -1,0 +1,229 @@
+h2 {
+	font-family: 'Estrangelo Edessa';
+	margin-top: 10px;
+}
+
+.btn-round {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	text-transform: uppercase;
+	font-family: 'Estrangelo Edessa';
+	max-width: 120px;
+	width: 120px;
+	height: 120px;
+	border: 3px solid #2B910F;
+	font-size: 1.5em;
+	position: relative;
+	padding: 0;
+	white-space: pre-wrap;
+	overflow: hidden;
+	margin: 0 auto;
+	-webkit-transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-ms-transition: 0.3s ease-out;
+	transition: 0.3s ease-out;
+}
+
+.btn-round > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.btn-round > div > span {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	height: 114px;
+	width: 114px;
+}
+
+.btn-round:hover,
+.btn-round:active,
+.btn-round:focus {
+	border-color: #2B910F;
+	background-color: #FBC500;
+}
+
+.app-container {
+	font-family: 'Estrangelo Edessa';
+}
+
+.app-header {
+	font-size: 1.7em;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+
+.app-body {
+	text-align: center;
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+.app-body a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.app-body a:hover,
+.app-body a:active,
+.app-body a:focus {
+	color: #2B910F;
+}
+
+.app-body img {
+	width: 40px;
+}
+
+.container-fluid.header {
+	background-color: #009200;
+	color: #FFF;
+	font-family: 'Estrangelo Edessa';
+}
+
+.container-fluid.header > h3 {
+	font-weight: lighter;
+	font-size: 1.9em;
+	margin: 6px 15px;
+}
+
+.services {
+	position: relative;
+}
+
+.services:not(:last-of-type) {
+	border-bottom: 1px solid #009200;
+}
+
+.services-picture,
+.services-content {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.services-picture > img {
+	width: 300px;
+}
+
+.services-content > h4 {
+	font-family: 'Estrangelo Edessa';
+	color: #009200;
+	text-transform: uppercase;
+	font-size: 1.7em;
+	text-align: center;
+	margin-top: 0;
+}
+
+.services-content > p {
+	font-size: 1.5em;
+	line-height: 1.2em;
+}
+
+.services-addon {
+	background-color: #FBC500;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.services-addon > span {
+	font-family: 'Estrangelo Edessa';
+	font-size: 1.6em;
+	display: block;
+	-moz-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	text-transform: uppercase;
+	position: relative;
+	top: 50%;
+}
+
+.community .community-picture {
+	height: 180px;
+	width: 180px;
+	border-radius: 25px;
+	display: inline-block;
+	position: relative;
+	background-color: #EEE;
+	padding: 30px;
+	margin: 12px 0;
+}
+
+.community .community-picture > img {
+	border-radius: 15px;
+	background-color: #FFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: -moz-calc(100% - 60px);
+	width: -webkit-calc(100% - 60px);
+	width: -ms-calc(100% - 60px);
+	width: calc(100% - 60px);
+	height: -moz-calc(100% - 60px);
+	height: -webkit-calc(100% - 60px);
+	height: -ms-calc(100% - 60px);
+	height: calc(100% - 60px);
+	margin: 30px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 767px) {
+	h2 {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.btn-round {
+		margin-bottom: 10px;
+	}
+
+	.app-header {
+		margin-top: 20px;
+	}
+
+	.container-fluid.header.m-t-lg {
+		margin-top: 20px;
+	}
+
+	.services-addon {
+		padding: 5px 0;
+		position: relative;
+	}
+
+	.services-addon > span {
+		-moz-transform: none;
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;
+		top: 0;
+	}
+}
+
+@media (min-width: 1200px) {
+ 	.container-fluid.header {
+ 		padding-left: 150px;
+ 		padding-right: 150px;
+ 	}
+
+	.services-content {
+		padding-right: 50px;
+	}
+}
+
+
+.none {
+    display: none !important;
+}
+
+

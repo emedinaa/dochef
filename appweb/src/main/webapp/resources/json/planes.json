@@ -1,0 +1,39 @@
+[{
+		"id": 1,
+        "titulo": "REGIMEN ALIMENTICIO PARA DEPORTISTA",
+        "imagen": "http://www.dochef.net/resources/img/posts/receta3.jpg",
+        "descripcion": " 
+“RECUERDA QUE LA ALIMENTACIÓN DE UN DEPORTISTA NO ES IGUAL A LA DE UNA PERSONA QUE LLEVA UNA VIDA SEDENTARIA” el elevado porcentaje de grasa tienes que convertirlo en músculo, para ello debes de comer de manera adecuada, haces mucho desgaste físico y debes de reponer de manera correcta ese desgaste.
+
+Como en la noche no puedes consumir cantidades elevadas de carbohidratos te cargo más durante el día, el carbohidrato es el que te ayudará a almacenar energía en el músculo para que puedes sostener un entrenamiento y la competencia de manera adecuada.
+
+
+Te mando limonada cuando te envío alimentos que contienen hierro no dejes de tomarla, pues la limonada contiene cítrico y el cítrico ayuda a que los alimentos que tienen hierro se absorban en el organismo de manera eficiente y es importante que el hierro lo consumas en su totalidad pues se encarga de transportar oxígeno a través de la sangre y en el deporte que tú haces necesitas tener una buena oxigenación.
+
+
+Los frutos secos (nueces, pecanas, almendras, maní, avellanas) tiene grasa pero es una grasa buena y te ayudará a perder grasa localizada, por su alto contenido de omega 3, así también te ayuda a recuperarte de la fatiga.
+
+El consumo de pan que sea durante el día pan blanco bajo en grasa, en la noche de preferencia que sea integral por el consumo de fibra que ayudará a la digestión, la granola, la barra energética son alimentos nutritivos ideal para deportistas, el consumo de agua debe ser 2 litros y medio a más diario eso ayudará a eliminar grasa a través de la orina. ",
+        "autor": "Jose Diaz"
+    },
+    {
+		"id": 2,
+        "titulo": "Régimen Alimenticio para niñas con obesidad",
+        "imagen": "http://www.dochef.net/resources/img/posts/receta4.jpg",
+        "descripcion": "El sobrepeso se debe a que se está consumiendo más calorías de las que una niña necesita, por ello hasta lograr la reducción de peso, debe retirarse el consumo de leche con quinua u otro alimento que suelan mandarle, el consumo de golosinas y de bebidas gaseosas debe disminuir, y se debe aumentar el consumo de agua. El agua es fundamental para que pueda eliminar a través de la orina el exceso de grasa que la niña tiene, por ello indico que en la lonchera a parte de las bebidas le manden un pomo de agua diario.</p><p>“RECUEDEN QUE ES UNA NIÑA QUE ESTÁ EN DESARROLLO Y NO DEBEMOS DEJAR DE DARLE ALIMENTOS NUTRITIVOS QUE AYUDEN A SU ÓPTIMO DESARROLLO”. La leche y el yogurt que sean descremados, alimentándose bien, restringiendo el consumo de frituras, golosinas, aumentando el consumo de agua, de frutas, de verduras y quemando calorías a través del juego la niña eliminará peso",
+        "autor": "Enrique Llanos "
+    },	
+    {
+		"id": 3,
+        "titulo": "RÉGIMEN ALIMENTICIO PARA PACIENTE CON COLESTEROL ELEVADO",
+        "imagen": "http://www.dochef.net/resources/img/posts/receta5.jpg",
+        "descripcion": "El plan alimenticio para una persona que tiene colesterol elevado, en primer lugar, requiere un cambio en el estilo de vida, el mismo que incluye: hacer ejercicios, control de su peso, cambio de hábitos alimentarios, reducir la ingesta de alcohol.</p><p>* Alimentos recomendables de consumir: frutas y verduras, cinco raciones al día; hortalizas; cereales integrales (pan, pasta, arroz); legumbres, pescado, atún, sardina, boquerón, salmón; frutos secos (nueces, almendras) y aceite de oliva virgen. Estos alimentos nos ayudarán a reducir los niveles de colesterol en sangre y aumentar el colesterol bueno llamado -HDL</p><p>Aumente el consumo de fibra: la fibra ayuda a reducir niveles de colesterol en sangre. Está presente en los cereales integrales, el salvado de avena, el germen de trigo, la avena integral, el pan integral y el arroz integral, los frijoles, lentejas, garbanzos.</p><p>* Alimentos que se deben reducir en consumo diario: alimentos que contengan elevado porcentaje de grasa los lácteos enteros, la mantequilla, las carnes grasas, embutidos, frituras. La cocción de los alimentos de preferible deben ser con poca grasa como: al horno, a la plancha, a la parrilla, al microondas, asado o cocción al vapor.</p><p>El consumo de agua es de vital importancia debido a que nos limpiará el organismo y a través de la orina eliminará el exceso de grasa que nuestro organismo tiene.",
+        "autor": "Miryan Ramirez"
+    },	
+    {
+		"id": 4,
+        "titulo": "RÉGIMEN ALIMENTICIO PARA PACIENTE OPERADO DE VESÍCULA",
+        "imagen": "http://www.dochef.net/resources/img/posts/receta6.jpg",
+        "descripcion": "El paciente operado de la vesícula al no tenerla en su organismo, el alimento que consuma tendrá una digestión más pesada, pues ahora los pasan directamente al intestino, de hecho va tener una vida normal, pero es aconsejable cambiar la alimentación y tener en cuenta algunos hábitos de salud básicos al menos durante el primer mes de operación.</p><p>* Alimentos recomendables de consumir: frutas (como la manzana, uvas, melón, papaya, naranja y ciruela), vegetales (los mejores son los vegetales verdes) y verduras semi-cocidas, cereales integrales y arroz integral, legumbres (como las lentejas y las judías, aunque sin abusar de ellas), carnes blancas sólo asadas y aceite de oliva.</p><p>* Bebidas recomendadas: jugos de frutas naturales, leches vegetales (como la leche de soja), tés (como el té verde y el té rojo) e infusiones.</p><p>* Alimentos que se deben evitar consumir: carnes rojas, alimentos fritos, comida rápida, embutidos, leche de vacas y derivados (como los quesos y yogures), harinas blancas y derivados (como galletas, cereales refinados o pan blanco) y azúcar refinado (azúcar blanco).</p><p>Evitar durante el mes consumir grasas, alimentos que produzcan gases, picantes, mayonesas, alcohol y tabaco, luego de a poco se irán incrementando los alimentos.",
+        "autor": "Alberto LLosa"
+    }]

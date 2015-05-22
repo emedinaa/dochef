@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Estrangelo Edessa', 'Arial Narrow';
+	src: url('../fonts/estre.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Chaparral Pro';
+	src: url('../fonts/ChaparralPro-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}

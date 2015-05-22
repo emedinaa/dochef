@@ -1,0 +1,37 @@
+[{
+		"id": 1,
+        "titulo": "Pollo sin piel al horno con ensalada",
+        "imagen": "http://www.dochef.net/resources/img/posts/receta7.jpg",
+        "descripcion": "Ideal para una dieta con personas con colesterol alto puesto que contiene verduras, pollo sin piel y aceite de oliva virgen. Este tipo de alimentos nos ayudarán a reducir los niveles de colesterol en la sangre y aumentar el colesterol bueno llamado -HDL. ",
+        "ingredientes": " 150 gr de pechuga de pollo<br>
+Pepino, tomate y lechuga fresca<br>
+Aceite de Oliva<br>
+Sal al gusto<br>
+1 papa sancochada al horno<br>
+1 vaso de agua<br> ",
+		"preparacion" : "1. Hornear la papa y el pollo con sal al gusto.<br>
+2. Una vez cocinado, servir en un plato.
+3. Desglosar la lechuga y unir a la papa y al pollo horneado.<br>4. Agregar el pepino y el tomate en rodajas al plato.<br>
+5. Agregar aceite de oliva y sal al gusto.<br>
+6. Acompañar con un vaso de agua como bebida.<br> ",
+        "autor": "Jose Diaz"
+    },
+    {
+		"id": 2,
+        "titulo": "Saltado de Pollo con Verduras  ",
+        "imagen": "http://www.dochef.net/resources/img/posts/receta8.jpg",
+        "descripcion": " Recomendado para niñas de 8 años con sobrepeso pero que al estar en desarrollo no debemos de dejar de darle alimentos nutritivos que ayuden a su optimo desarrollo. ",
+        "ingredientes" : " 150 gr de pollo cortado en trozos<br>
+Mix de verduras frescas<br>
+Aceite de Oliva<br>
+Sal al gusto<br>
+1 papa chica sancochada al horno<br>
+1 vaso de agua<br> ",
+        "preparacion" : " 1. Vertir aceite de oliva a una olla caliente a fuego alto.<br>
+2. Incorporar el pollo y freir con sal al gusto.<br>
+3. Agregar las verduras empezando por aquellas que requieran mayor tiempo de cocción.<br>
+4. Mezclar el saltado en la olla hasta que las verduras y el pollo hayan cocido.<br>
+5. Servir y acompañar con papa sancochada o al horno.<br>
+6. Acompañar con un vaso de agua como bebida.<br>  ",
+        "autor": "Alberto LLosa"
+    }]

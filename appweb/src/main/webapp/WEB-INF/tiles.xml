@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+    <!-- Masters -->
+    <definition name="home.page" template="/public/template/master.jsp">
+        <put-attribute name="header" value="/public/template/header.jsp"/>
+        <put-attribute name="footer" value="/public/template/footer.jsp"/>
+    </definition>
+    
+    <definition name="seccion.page" template="/public/template/interior.jsp">
+        <put-attribute name="header" value="/public/template/header.jsp"/>
+        <put-attribute name="footer" value="/public/template/footer.jsp"/>
+    </definition>
+    
+    <definition name="detalle.page" template="/public/template/detalle.jsp">
+        <put-attribute name="header" value="/public/template/header.jsp"/>
+        <put-attribute name="footer" value="/public/template/footer.jsp"/>
+    </definition>
+        
+
+    <!--  Secciones -->
+    <definition name="home" extends="home.page">
+        <put-attribute name="portada" value="/public/inicio/portada.jsp"/>
+        <put-attribute name="body" value="/public/inicio/inicio.jsp"/>
+    </definition>
+
+	<!--  recetas -->
+    <definition name="recetas" extends="seccion.page">
+    	<put-attribute name="header" value="/public/recetas/header.jsp"/>
+        <put-attribute name="portada" value="/public/recetas/portada.jsp"/>
+        <put-attribute name="body" value="/public/recetas/recetas.jsp"/>
+    </definition>
+    
+    <definition name="receta" extends="detalle.page">
+    	<put-attribute name="header" value="/public/recetas/header.jsp"/>
+        <put-attribute name="body" value="/public/recetas/receta.jsp"/>
+    </definition>
+        
+
+
+	<!--  planes -->
+    <definition name="planes" extends="seccion.page">
+    	<put-attribute name="header" value="/public/planes/header.jsp"/>
+        <put-attribute name="portada" value="/public/planes/portada.jsp"/>
+        <put-attribute name="body" value="/public/planes/planes.jsp"/>
+    </definition>
+    
+    <definition name="plan" extends="detalle.page">
+    	<put-attribute name="header" value="/public/planes/header.jsp"/>
+        <put-attribute name="body" value="/public/planes/plan.jsp"/>
+    </definition>
+    
+    <definition name="archivosPlan" extends="detalle.page">
+    	<put-attribute name="header" value="/public/planes/header.jsp"/>
+        <put-attribute name="body" value="/public/planes/archivos.jsp"/>
+    </definition>
+    
+    <definition name="videosPlan" extends="detalle.page">
+    	<put-attribute name="header" value="/public/planes/header.jsp"/>
+        <put-attribute name="body" value="/public/planes/videos.jsp"/>
+    </definition>    
+
+        
+    <!--  consejos -->
+    <definition name="consejos" extends="seccion.page">
+    	<put-attribute name="header" value="/public/consejos/header.jsp"/>
+        <put-attribute name="portada" value="/public/consejos/portada.jsp"/>
+        <put-attribute name="body" value="/public/consejos/consejos.jsp"/>
+    </definition>    
+
+    <definition name="consejo" extends="detalle.page">
+    	<put-attribute name="header" value="/public/consejos/header.jsp"/>
+        <put-attribute name="body" value="/public/consejos/consejo.jsp"/>
+    </definition>
+
+
+    <definition name="login" extends="home.page">
+        <put-attribute name="header" value="/public/template/header.jsp"/>
+        <put-attribute name="footer" value=""/>    
+        <put-attribute name="body" value=""/>
+        <put-attribute name="portada" value="/public/login.jsp"/>
+    </definition>
+
+	<definition name="signup" extends="home.page">
+        <put-attribute name="header" value="/public/template/header.jsp"/>
+        <put-attribute name="footer" value=""/>    
+        <put-attribute name="body" value=""/>	
+		<put-attribute name="portada" value="/public/signup.jsp" />
+	</definition>
+
+
+    <definition name="accesoDenegado" extends="home.page">
+        <put-attribute name="header" value="/public/template/header.jsp"/>
+        <put-attribute name="footer" value=""/>    
+        <put-attribute name="body" value=""/>
+        <put-attribute name="portada" value="/public/accesoDenegado.jsp"/>
+    </definition>
+
+    <definition name="gracias" extends="home.page">
+        <put-attribute name="header" value="/public/template/header.jsp"/>
+        <put-attribute name="footer" value=""/>    
+        <put-attribute name="body" value=""/>
+        <put-attribute name="portada" value="/public/gracias.jsp"/>
+    </definition>
+    
+    
+
+</tiles-definitions>

@@ -1,0 +1,146 @@
+/* General */
+
+body {
+	font-family: "Chaparral Pro";
+}
+
+p {
+	font-size: 1.7rem;
+	text-align: justify;
+}
+
+/* Margins and spacing */
+
+.m-t {
+	margin-top: 20px;
+}
+
+.m-t-md {
+	margin-top: 40px;
+}
+
+.m-t-lg {
+	margin-top: 50px;
+}
+
+.p-t {
+	padding-top: 15px;
+}
+
+.full-width {
+	width: 100%;
+}
+
+/* Topbar */
+
+header > h1 img {
+	width: 120px;
+}
+
+header > .nav-justified {
+	border-top: 2px solid #2B910F;
+	border-bottom: 2px solid #2B910F;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+header > .nav-justified > li {
+	vertical-align: middle;
+}
+
+header > .nav-justified > li > a {
+	color: #2B910F;
+	padding: 3px;
+	font-family: "Estrangelo Edessa";
+	font-size: 1.5em;
+	font-weight: lighter;
+}
+
+header > .nav-justified > li > a {
+	-moz-transition: color .15s ease-in;
+	-webkit-transition: color .15s ease-in;
+	-ms-transition: color .15s ease-in;
+	transition: color .15s ease-in;
+}
+
+header > .nav-justified > li > a:hover,
+header > .nav-justified > li > a:active,
+header > .nav-justified > li > a:focus {
+	color: #FBC500;
+	background-color: transparent;
+}
+
+header > .nav-justified > li.active > a,
+header > .nav-justified > li.active > a:hover,
+header > .nav-justified > li.active > a:active,
+header > .nav-justified > li.active > a:focus {
+	color: #FBC500;
+	background-color: transparent;
+}
+
+/* Footer */
+
+.container-fluid.footer {
+	background-color: #009200;
+	font-size: 2.5em;
+	margin-top: 50px;
+}
+
+.container-fluid.footer > .row > div {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.container-fluid.footer a {
+	color: #FFF;
+}
+
+.footer-logo {
+	background-image: url(../img/shared/footer-logo.png);
+	background-repeat: no-repeat;
+	background-size: 60px auto;
+	background-position: center center;
+}
+
+.footer-designed {
+	background-image: url(../img/shared/footer-designed.png);
+	background-repeat: no-repeat;
+	background-size: 70% auto;
+	background-position: center 90%;
+}
+
+/* Responsive Design  */
+@media screen and (max-width: 767px) {
+	header > h1 {
+		text-align: center;
+	}
+
+	header > .nav-justified {
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+ 		width: 900px;
+ 	}
+
+ 	.container-fluid.footer a {
+ 		transform: scale(0.8);
+ 		transition: transform .1s ease-in;
+ 	}
+
+ 	.container-fluid.footer a:hover {
+ 		transform: scale(1);
+ 	}
+
+ 	.content {
+ 		min-height: 2000px;
+ 	}
+}
+
+@media (min-width: 1200px) {
+ 	.container {
+ 		width: 900px;
+ 	}
+}
